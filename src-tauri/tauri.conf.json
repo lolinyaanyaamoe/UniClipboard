@@ -76,7 +76,7 @@
         "installerHooks": "windows/installer-hooks.nsh"
       }
     },
-    "createUpdaterArtifacts": true
+    "createUpdaterArtifacts": false
   },
   "plugins": {
     "updater": {
