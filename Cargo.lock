@@ -10584,7 +10584,7 @@ dependencies = [
 [[package]]
 name = "uc-application"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -10676,7 +10676,7 @@ dependencies = [
 [[package]]
 name = "uc-content-hash"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "blake3",
  "hex",
@@ -10685,7 +10685,7 @@ dependencies = [
 [[package]]
 name = "uc-core"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "anyhow",
  "arrayvec",
@@ -10838,7 +10838,7 @@ dependencies = [
 [[package]]
 name = "uc-engine"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -10864,7 +10864,7 @@ dependencies = [
 [[package]]
 name = "uc-infra"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "anyhow",
  "argon2",
@@ -10932,7 +10932,7 @@ dependencies = [
 [[package]]
 name = "uc-mobile-lan"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "async-trait",
  "base64 0.22.1",
@@ -10954,7 +10954,7 @@ dependencies = [
 [[package]]
 name = "uc-mobile-proto"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "base64 0.22.1",
  "chrono",
@@ -10989,7 +10989,7 @@ dependencies = [
 [[package]]
 name = "uc-observability-contract"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "anyhow",
  "chrono",
@@ -11006,7 +11006,7 @@ dependencies = [
 [[package]]
 name = "uc-observability-runtime"
 version = "1.1.0-rc.20"
-source = "git+https://github.com/UniClipboard/Engine.git?rev=3f3eef7450e06013c3178b716eee9d5a3c419349#3f3eef7450e06013c3178b716eee9d5a3c419349"
+source = "git+https://github.com/lolinyaanyaamoe/Engine.git?rev=5b7d59c0073f45413bd608f1c08f71a72c4968da#5b7d59c0073f45413bd608f1c08f71a72c4968da"
 dependencies = [
  "chrono",
  "jni 0.22.4",

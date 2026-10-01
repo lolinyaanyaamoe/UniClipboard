@@ -19,6 +19,8 @@ When documentation conflicts with code, treat the code as the source of truth an
 
 **For Implementation:**
 
+- [多网卡直连配对修复记录](specs/2026-10-01-multinic-pairing-fix.md) - 实测结果、根因及 v1.0.1 正式版迁移
+
 - [自动连接的桌面宿主接入](specs/automatic-peer-connections.md) - 前台、系统唤醒与 Engine 的责任边界和验证记录
 
 - [Bootstrap System](architecture/bootstrap.md) - How dependency injection works
