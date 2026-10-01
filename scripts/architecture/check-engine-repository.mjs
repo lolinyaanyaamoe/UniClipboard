@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url'
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url))
 const REPOSITORY_ROOT = resolve(SCRIPT_DIR, '../..')
-const ENGINE_REPOSITORY = 'https://github.com/UniClipboard/Engine.git'
+const ENGINE_REPOSITORY = 'https://github.com/lolinyaanyaamoe/Engine.git'
 
 const MIGRATED_PACKAGES = new Set([
   'uc-engine',
@@ -301,6 +301,7 @@ function checkGuiGraph(guiGraph) {
       .filter(
         line =>
           line.includes('github.com/UniClipboard/Engine') ||
+          line.includes(ENGINE_REPOSITORY) ||
           MIGRATED_PACKAGES.has(line.split(' ')[0])
       )
       .map(line => line.replace(/ \(\*\)$/, ''))
