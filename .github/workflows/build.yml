@@ -200,12 +200,13 @@ jobs:
       channel: ${{ inputs.channel || 'stable' }}
       build_mode: ${{ inputs.build_mode || 'release' }}
       build_only: ${{ inputs.build_only == true }}
-      run_acceptance: ${{ inputs.run_acceptance != false }}
+      # Package only; reconnect acceptance runs separately with relay disabled.
+      run_acceptance: false
       save_cache: ${{ inputs.save_cache == true }}
       package_cli: ${{ inputs.package_cli == true }}
       require_signing: ${{ inputs.require_signing == true }}
       signing_self_test: ${{ inputs.signing_self_test == true }}
       signpath_test_signing: ${{ inputs.signpath_test_signing == true }}
       allow_unsigned_windows: ${{ inputs.allow_unsigned_windows == true }}
-      upload_symbols: ${{ inputs.upload_symbols != false }}
-    secrets: inherit
+      upload_symbols: false
+    # The reconnect test branch must not inherit publishing or signing secrets.
